@@ -1,5 +1,5 @@
 #define LDR_analog A14 //กำหนดให้ขาอนาล็อกของ LDR อยู่ที่ A14
-#define LDR_digital 26 //กำหนดให้ขาดิจิตอลของ LDR อยู่ที่ 11
+#define LDR_digital 26 //กำหนดให้ขาดิจิตอลของ LDR อยู่ที่ 26
 void setup() {
   Serial.begin(115200);           //ตั้งค่าความเร็วในการส่งข้อมูล
   pinMode(LDR_digital,INPUT);     //กำหนดให้ Pin LDR_digital เป็นโหมดรับค่า
